@@ -17,8 +17,7 @@
 					$count0=mysqli_num_rows($res0);
 					if(!$res0)
 						echo mysqli_error($connect);
-					if($query0){
-					   header('Location: http://localhost/registration/formsdisplay.php?username=$username');
+					
 
                     }
 
